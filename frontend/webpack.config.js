@@ -15,18 +15,17 @@ const webPackConfiguration = (env) => {
   const devMode = env!== 'production';
 
   return {
-    entry: {
-      index: path.resolve(__dirname, 'src', 'index.js')
-    },
+    entry: './src',
     resolve: {
       extensions: ['*', '.js', '.jsx']
     },
     devServer:{
       hot: true,
-      static: './dist'
+      static: './frontend/dist'
     },
     output:{
-      path: path.resolve(__dirname, 'public', 'build')
+      path: path.join(__dirname, '/frontend/dist'),
+      filename: 'index.js'
     },
     module: { 
       rules: [
