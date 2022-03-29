@@ -1,0 +1,22 @@
+.icon-facebook-new, 
+.icon-twitter-circled, 
+.icon-google-logo
+ {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.1em;
+}
+
+.icon-facebook-new>svg, 
+.icon-twitter-circled>svg, 
+.icon-google-logo>svg
+ {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.1em;
+}
+

@@ -2,3 +2,12 @@
     font-size: 28px;
     color: blue;
 }
+
+body{
+    background-color: white;
+    /* background-image: url('../assets/images/app_background.jpg'); */
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
